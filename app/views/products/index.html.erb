@@ -5,9 +5,7 @@
 </ul>
 <br>
 
-<%= form_tag ({controller: 'products',
-    action: 'add',
-    method: 'post'}) do %>
+<%= form_tag add_products_path do %>
 
   <input name=product>
   <input type=submit value='add to cart'>
